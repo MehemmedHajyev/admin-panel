@@ -1,0 +1,7 @@
+{
+    "az":"Azerbaijan",
+    "en":"English",
+    "aboutUs": "About us",
+    "forDevelopers": "For developers",
+    "welcomeMesage":"Hi my name is {{username}} I'm a {{level}} developer"
+}

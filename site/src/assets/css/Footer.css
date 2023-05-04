@@ -1,0 +1,114 @@
+hr {
+    margin-top: 100px !important;
+    background: #e8e7e8 !important;
+    height: 1px !important;
+}
+
+.icons-of-footer {
+    display: flex;
+    gap: 16px;
+}
+
+.icon-brand {
+    font-size: 24px;
+}
+
+.twitter {
+    font-size: 15px;
+    width: 15px;
+    border-radius: 100%;
+    padding: 6px;
+    background-color: #55acee;
+    color: white;
+    cursor: pointer;
+}
+
+.facebook {
+    font-size: 15px;
+    width: 15px;
+    border-radius: 100%;
+    padding: 6px;
+    background-color: #3b5998;
+    cursor: pointer;
+    color: white;
+}
+
+.linkedin {
+    font-size: 15px;
+    width: 15px;
+    border-radius: 100%;
+    padding: 6px;
+    background-color: #0976b4;
+    cursor: pointer;
+    color: white;
+}
+
+.footer-wrapper {
+    display: flex;
+    justify-content: space-between !important;
+}
+
+.footer-navbar {
+    list-style-type: none;
+}
+
+.footer-navbar li {
+    margin-right: 30px;
+}
+
+.footer-navbar li a {
+    font-size: 13px;
+    line-height: 15px;
+    color: #64626a;
+    text-decoration: none;
+}
+
+.dropdown-of-footer {
+    display: flex;
+    align-items: center;
+}
+
+.footer-dropdown {
+    background-color: white !important;
+    color: black !important;
+    border-color: #e8e7e8 !important;
+    font-style: normal !important;
+    font-weight: 600 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    letter-spacing: 0.0875px !important;
+    color: #64626a !important;
+    gap: 5px !important;
+}
+
+.footer-col h6 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #64626a;
+}
+
+.dropdown-item-style {
+    font-weight: 600 !important;
+    font-size: 14px;
+    line-height: 21px;
+    color: #64626a;
+}
+
+@media (max-width: 544px) {
+    .footer-navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+}
+@media (max-width: 991px) {
+    .footer-wrapper {
+        flex-direction: column !important;
+        gap: 20px !important;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+}

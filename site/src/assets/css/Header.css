@@ -1,0 +1,23 @@
+.navnav {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 17px;
+}
+
+.burgermenumobile {
+    font-size: 16px;
+    font-weight: 600;
+}
+.domainfin {
+    margin: 0 25px;
+}
+.header-style {
+    height: 100px;
+    background-color: rgb(82, 171, 132);
+    color: white;
+}
+@media only screen and (max-width: 915px) and (min-width: 360px) {
+    .header-style {
+        height: 100%;
+    }
+}

@@ -1,0 +1,165 @@
+.wrapper {
+    display: flex;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.wrapper .input-group .input-text-style {
+    cursor: pointer;
+}
+.wrapper .dropdown .dropdown-menu .container .checkbox {
+    margin: 8px;
+}
+.wrapper .dropdown button {
+    background-color: white;
+    color: black;
+    border: 1px solid #52ab84;
+    border-radius: 0;
+}
+.wrapper .input-group .input-style {
+    width: 430px;
+    border-radius: 0;
+    border-color: #52ab84;
+}
+.wrapper .input-group .input-text-style {
+    border-radius: 0;
+    border-color: #52ab84;
+    background-color: white;
+}
+.wrapper .dropdown-toggle::after {
+    display: none;
+}
+.search-result-card {
+    background: #ffffff;
+    border: 1px solid #e8e7e8;
+    margin-top: 5rem;
+    padding: 20px;
+}
+.search-result-header-wrapper {
+    display: flex !important;
+    justify-content: space-between !important;
+    align-items: center;
+}
+.result-logo {
+    display: flex;
+    align-items: center !important;
+    gap: 10px;
+}
+.result-first-part h6 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600 !important;
+    font-size: 17px !important;
+    color: #3b3a40;
+    margin-top: 6px;
+}
+.result-first-part p {
+    color: #8e8c95;
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    cursor: pointer;
+}
+.local-rating h1,
+.global-rating h1 {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    color: #52ab84;
+}
+.local-rating p,
+.global-rating p {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #8e8c95;
+}
+.result-second-part {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.search-result-hr {
+    margin-top: 10px !important;
+    height: 2px !important;
+    opacity: 0.1;
+}
+.search-result-body h1 {
+    font-family: "Inter";
+    font-weight: 600;
+    font-size: 17px;
+    color: #3b3a40;
+}
+.search-result-body h1 span {
+    cursor: pointer;
+}
+.search-result-body p {
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 14px;
+    color: #3b3a40;
+}
+.search-result-body span {
+    background-color: #a6c9ba;
+}
+.search-result-tags {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.search-result-tags > div {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #64626a;
+    background: #eff1f3;
+    border-radius: 4px;
+    padding: 9px 16px;
+    cursor: pointer;
+}
+.detail-result-tags {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.detail-result-tags > div {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #64626a;
+    background: #eff1f3;
+    border-radius: 4px;
+    padding: 9px 16px;
+    cursor: pointer;
+}
+@media only screen and (max-width: 920px) and (min-width: 360px) {
+    .wrapper {
+        position: absolute;
+        left: 87%;
+    }
+    .wrapper .input-group {
+        width: 35%;
+        flex-wrap: nowrap;
+    }
+}
+@media only screen and (max-width: 1180px) and (min-width: 768px) {
+    .wrapper {
+        position: absolute;
+        left: 50%;
+    }
+    .wrapper .input-group {
+        width: 100%;
+    }
+}
